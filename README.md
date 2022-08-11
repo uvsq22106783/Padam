@@ -10,8 +10,9 @@ Given an undirected graph, you need to compute a path with travels each edge at 
 ## Input
 A few instances are available for downloading [here](https://drive.google.com/drive/folders/1QGOxSN0obzDSZoiZZ351Fn8WeRMK-jEI?usp=sharing).
 ### Format
-- At the begin of the file, vertices are listed: the line number is the vertex id, and the 2 numbers given are its coordinates in a 2-D plan.
-- Then are listed the edges, with 3 numbers being: id of 1st vertex, id of 2d vertex, weight associated with the edge.
+- First line of file contains 2 numbers: first is total number of vertices, second is total number of edges in the graph.
+- Then vertices are listed: the 2 numbers given are the vertex coordinates in a 2-D plan. Vertex id is its line number - 1.
+- Then are listed the edges, with 3 numbers being: id of 1st vertex, id of 2d vertex, weight associated with their edge.
 
 ## Assessment criteria
 - You must provide an answer for all [given instances](https://drive.google.com/drive/folders/1QGOxSN0obzDSZoiZZ351Fn8WeRMK-jEI?usp=sharing). Answer must be given in reasonable time (on a standard performance computer).

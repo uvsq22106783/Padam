@@ -44,6 +44,8 @@ def parse_file(file_name: str) -> tuple[list[tuple], list[tuple]]:
         lines = file.readlines()
     vertices, edges = [], []
     for i, line in enumerate(lines):
+        if i == 0:
+            continue
         splitted_line = line.strip("\n\r").split(" ")
         if len(splitted_line) == 2:
             vertices.append((float(splitted_line[0]), float(splitted_line[1])))
