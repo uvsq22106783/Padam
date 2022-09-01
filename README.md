@@ -5,7 +5,7 @@ Goal of this exercise is to assess your python coding skills.
 To perform this test, please fork the repository and open a pull request when you're done. (Please tell us by email when you're ready for review! :smiley:).
 
 ## Objective
-Given an undirected graph, you need to compute a path with travels each edge at least one time (pseudo-eulerian path), total distance traveled (sum of edges' weight) being the smallest possible.
+Given an undirected graph, you need to compute a path which travels each edge at least one time (pseudo-eulerian path), total distance traveled (sum of edges' weight) being the smallest possible.
 
 ## Input
 A few instances are available for downloading [here](https://drive.google.com/drive/folders/1QGOxSN0obzDSZoiZZ351Fn8WeRMK-jEI?usp=sharing).
