@@ -11,7 +11,7 @@ def parse_cmd_line() -> tuple(str, bool):
     tuple(str, bool)
         path to input graph file, whether to plot the graph.
     """
-    parser = argparse.ArgumentParser("Padam R&D Tech Lead Test")
+    parser = argparse.ArgumentParser("Padam R&D Test")
     parser.add_argument("-i", "--in_file", help="path to graph txt file", dest="in_file", required=True)
     parser.add_argument(
         "-p",
